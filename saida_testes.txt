@@ -1,0 +1,49 @@
+Teste: Soma
+  Entradas : a=10, b=5, op="+"
+  Esperado : 15
+  Obtido   : 15
+  Resultado: PASSOU
+
+Teste: Subtracao
+  Entradas : a=10, b=5, op="-"
+  Esperado : 5
+  Obtido   : 5
+  Resultado: PASSOU
+
+Teste: Multiplicacao
+  Entradas : a=10, b=5, op="*"
+  Esperado : 50
+  Obtido   : 50
+  Resultado: PASSOU
+
+Teste: Divisao exata
+  Entradas : a=10, b=5, op="/"
+  Esperado : 2
+  Obtido   : 2
+  Resultado: PASSOU
+
+Teste: Divisao com decimal
+  Entradas : a=7, b=2, op="/"
+  Esperado : 3.5
+  Obtido   : 3.5
+  Resultado: PASSOU
+
+Teste: Divisao por zero
+  Entradas : a=10, b=0, op="/"
+  Esperado : Erro: divisao por zero
+  Obtido   : Erro: divisao por zero
+  Resultado: PASSOU
+
+Teste: Operacao invalida
+  Entradas : a=10, b=5, op="%"
+  Esperado : Operacao invalida
+  Obtido   : Operacao invalida
+  Resultado: PASSOU
+
+Teste: Operacao nula
+  Entradas : a=10, b=5, op="null"
+  Esperado : Operacao invalida
+  Obtido   : Operacao invalida
+  Resultado: PASSOU
+
+Resumo: 8/8 testes passaram.
