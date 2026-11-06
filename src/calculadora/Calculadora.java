@@ -2,40 +2,56 @@ package calculadora;
 
 public class Calculadora {
 
-    // Versao inicial: funciona, mas com ifs aninhados e pouca organizacao
+    private static final String MSG_OPERACAO_INVALIDA = "Operacao invalida";
+    private static final String MSG_DIVISAO_POR_ZERO = "Erro: divisao por zero";
+
     public static String calc(int a, int b, String op) {
-        String r;
         if (op == null) {
-            r = "Operacao invalida";
-        } else {
-            if (op.equals("+")) {
-                r = String.valueOf(a + b);
-            } else {
-                if (op.equals("-")) {
-                    r = String.valueOf(a - b);
-                } else {
-                    if (op.equals("*")) {
-                        r = String.valueOf(a * b);
-                    } else {
-                        if (op.equals("/")) {
-                            if (b == 0) {
-                                r = "Erro: divisao por zero";
-                            } else {
-                                double x = (double) a / b;
-                                if (x == Math.floor(x)) {
-                                    r = String.valueOf((long) x);
-                                } else {
-                                    r = String.valueOf(x);
-                                }
-                            }
-                        } else {
-                            r = "Operacao invalida";
-                        }
-                    }
-                }
-            }
+            return MSG_OPERACAO_INVALIDA;
         }
-        return r;
+
+        switch (op) {
+            case "+":
+                return formatar(somar(a, b));
+            case "-":
+                return formatar(subtrair(a, b));
+            case "*":
+                return formatar(multiplicar(a, b));
+            case "/":
+                return dividir(a, b);
+            default:
+                return MSG_OPERACAO_INVALIDA;
+        }
+    }
+
+    private static long somar(int a, int b) {
+        return (long) a + b;
+    }
+
+    private static long subtrair(int a, int b) {
+        return (long) a - b;
+    }
+
+    private static long multiplicar(int a, int b) {
+        return (long) a * b;
+    }
+
+    private static String dividir(int dividendo, int divisor) {
+        if (divisor == 0) {
+            return MSG_DIVISAO_POR_ZERO;
+        }
+        return formatar((double) dividendo / divisor);
+    }
+
+    private static String formatar(long valor) {
+        return String.valueOf(valor);
+    }
+
+    private static String formatar(double valor) {
+        if (valor == Math.floor(valor)) {
+            return String.valueOf((long) valor);
+        }
+        return String.valueOf(valor);
     }
 
     public static void main(String[] args) {
