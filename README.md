@@ -70,6 +70,7 @@ Resultado obtido (8/8 testes passaram; saída completa em `saida_testes.txt`):
 ## Prints da documentação JavaDoc
 
 > <img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/15fed49b-943f-43b7-839e-8a223230258a" />
+> <img width="1822" height="747" alt="image" src="https://github.com/user-attachments/assets/b25ddae5-7677-4d68-8942-261687efecc9" />
 
 
 ## Link do repositório
