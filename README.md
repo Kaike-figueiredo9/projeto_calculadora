@@ -64,15 +64,17 @@ javadoc -encoding UTF-8 -private -author -version -d docs -sourcepath src calcul
 
 Resultado obtido (8/8 testes passaram; saída completa em `saida_testes.txt`):
 
-> **TODO:** inserir aqui o print do terminal, por exemplo `![Testes](prints/testes.png)`
+> <img width="1512" height="927" alt="image" src="https://github.com/user-attachments/assets/d73c3079-ba33-46f8-ae65-48187d1bc83a" />
+
 
 ## Prints da documentação JavaDoc
 
-> **TODO:** abrir `docs/index.html` no navegador e inserir o print, por exemplo `![JavaDoc](prints/javadoc.png)`
+> <img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/15fed49b-943f-43b7-839e-8a223230258a" />
+
 
 ## Link do repositório
 
-> **TODO:** https://github.com/Kaike-figueiredo9/projeto_calculadora
+> https://github.com/Kaike-figueiredo9/projeto_calculadora
 
 ## Autor
 
