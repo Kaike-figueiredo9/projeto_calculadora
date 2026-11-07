@@ -7,7 +7,7 @@ package calculadora;
  * Se algum teste falhar, o programa termina com codigo de saida 1.
  * </p>
  *
- * @author Klau
+ * @author Kaike Figueiredo
  * @version 1.1
  */
 public class TesteCalculadora {
