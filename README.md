@@ -76,4 +76,4 @@ Resultado obtido (8/8 testes passaram; saída completa em `saida_testes.txt`):
 
 ## Autor
 
-Klau
+Kaike Figueiredo
