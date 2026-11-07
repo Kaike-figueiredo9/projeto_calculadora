@@ -8,7 +8,7 @@ package calculadora;
  * devolve uma mensagem de erro em texto.
  * </p>
  *
- * @author Klau
+ * @author Kaike Figueiredo
  * @version 1.1
  */
 public class Calculadora {
