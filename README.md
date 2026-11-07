@@ -75,7 +75,7 @@ Resultado obtido (8/8 testes passaram; saída completa em `saida_testes.txt`):
 
 ## Link do repositório
 
-> https://github.com/Kaike-figueiredo9/projeto_calculadora
+> [https://github.com/Kaike-figueiredo9/projeto_calculadora](https://github.com/Kaike-figueiredo9/projeto_calculadora.git)
 
 ## Autor
 
