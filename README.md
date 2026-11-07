@@ -57,8 +57,8 @@ javadoc -encoding UTF-8 -private -author -version -d docs -sourcepath src calcul
 
 ## Branches
 
-- `main`: versão final (já com a refatoração e a documentação mescladas).
-- `Refatoracao`: refatoração (extração de métodos, `switch`, constantes de mensagem) e documentação JavaDoc.
+- `main`: versão final.
+- `Refatoracao`: refatoração e documentação JavaDoc.
 
 ## Prints da execução dos testes
 
